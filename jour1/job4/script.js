@@ -4,3 +4,4 @@ function bisextile(année) {
 
 console.log(bisextile(1996)); // true
 console.log(bisextile(2000)); // true
+console.log(bisextile(1900)); // false
