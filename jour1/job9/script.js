@@ -1,8 +1,8 @@
 function tri(numbers, order) {
     if (order === "asc") {
-        return numbers.sort((a, b) => a - b); // Tri ascendant
+        return numbers.sort((a, b) => a - b); // Tri ascendant/croissant
     } else if (order === "desc") {
-        return numbers.sort((a, b) => b - a); // Tri descendant
+        return numbers.sort((a, b) => b - a); // Tri descendant/décroissant
     } else {
         return numbers; // Retourne le tableau non trié si l'ordre n'est pas reconnu
     }
