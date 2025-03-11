@@ -1,2 +1,2 @@
-let message = "Hello Javascript !";
+let message = 'Hello Javascript !';
 console.log(message);
