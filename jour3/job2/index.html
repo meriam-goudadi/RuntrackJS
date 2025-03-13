@@ -1,12 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Runtrack - Javascript</title>
-    <script src="script.js" defer></script>
+    <title>Arc-en-ciel - Job 02</title>
+    <!-- Inclure jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <style>
+        /* Style pour les images et le conteneur */
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            width: 100px;
+            height: auto;
+            cursor: pointer;
+        }
+        #message {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Reconstituer l'arc-en-ciel</h1>
+
+    <!-- Conteneur pour les images -->
+    <div class="image-container" id="image-container">
+        <img src="images/arc1.png" data-order="1" alt="Arc-en-ciel 1">
+        <img src="images/arc2.png" data-order="2" alt="Arc-en-ciel 2">
+        <img src="images/arc3.png" data-order="3" alt="Arc-en-ciel 3">
+        <img src="images/arc4.png" data-order="3" alt="Arc-en-ciel 4">
+        <img src="images/arc5.png" data-order="3" alt="Arc-en-ciel 5">
+        <img src="images/arc6.png" data-order="3" alt="Arc-en-ciel 6">
+    </div>
+
+    <!-- Bouton pour mélanger les images -->
+    <button id="shuffle-button">Mélanger</button>
+
+    <!-- Message de résultat -->
+    <div id="message"></div>
+        
 </body>
 </html>

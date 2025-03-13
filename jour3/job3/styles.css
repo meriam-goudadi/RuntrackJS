@@ -1,0 +1,40 @@
+/* Style pour le plateau de jeu */
+#taquin-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+    width: max-content;
+}
+
+/* Style pour les carreaux */
+.tile {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+/* Style pour la case vide */
+.empty {
+    background-color: #f0f0f0;
+    border: 1px dashed #000;
+}
+
+/* Style pour le message de victoire */
+.win {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Style pour le bouton Recommencer */
+#restart-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
