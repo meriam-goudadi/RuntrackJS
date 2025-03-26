@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job 01 - Formulaire de création de compte</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    
+    <header class="bg-blue-600 text-white p-4">
+        <nav class="container mx-auto">
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="hover:text-blue-300">Accueil</a></li>
+                <li><a href="index.html" class="hover:text-blue-300">Inscription</a></li>
+                <li><a href="index.html" class="hover:text-blue-300">Connexion</a></li>
+                <li><a href="index.html" class="hover:text-blue-300">Rechercher</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main class="container mx-auto p-4">
+        <section class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-4">Création de compte</h2>
+            <form>
+                
+                <div class="mb-4">
+                    <label class="block text-gray-700">Civilité</label>
+                    <div class="mt-2">
+                        <label class="inline-flex items-center">
+                            <input type="radio" class="form-radio" name="civilite" value="Monsieur">
+                            <span class="ml-2">Monsieur</span>
+                        </label>
+                        <label class="inline-flex items-center ml-6">
+                            <input type="radio" class="form-radio" name="civilite" value="Madame">
+                            <span class="ml-2">Madame</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <label class="block text-gray-700">Prénom</label>
+                    <input type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm" required>
+                </div>
+                
+                <div class="mb-4">
+                    <label class="block text-gray-700">Nom</label>
+                    <input type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm" required>
+                </div>
+               
+                <div class="mb-4">
+                    <label class="block text-gray-700">Adresse</label>
+                    <input type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm" required>
+                </div>
+                
+                <div class="mb-4">
+                    <label class="block text-gray-700">Adresse email</label>
+                    <input type="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm" required>
+                </div>
+                
+                <div class="mb-4">
+                    <label class="block text-gray-700">Mot de passe</label>
+                    <input type="password" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm" required>
+                </div>
+                
+                <div class="mb-4">
+                    <label class="block text-gray-700">Validation du mot de passe</label>
+                    <input type="password" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm" required>
+                </div>
+                
+                <div class="mb-4">
+                    <label class="block text-gray-700">Passions</label>
+                    <div class="mt-2">
+                        <label class="inline-flex items-center">
+                            <input type="checkbox" class="form-checkbox" name="passions" value="informatique">
+                            <span class="ml-2">Informatique</span>
+                        </label>
+                        <label class="inline-flex items-center ml-6">
+                            <input type="checkbox" class="form-checkbox" name="passions" value="voyages">
+                            <span class="ml-2">Voyages</span>
+                        </label>
+                        <label class="inline-flex items-center ml-6">
+                            <input type="checkbox" class="form-checkbox" name="passions" value="sport">
+                            <span class="ml-2">Sport</span>
+                        </label>
+                        <label class="inline-flex items-center ml-6">
+                            <input type="checkbox" class="form-checkbox" name="passions" value="lecture">
+                            <span class="ml-2">Lecture</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Bouton de validation -->
+                <div class="mt-6">
+                    <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700">Valider</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    
+    <footer class="bg-blue-600 text-white p-4 mt-8">
+        <div class="container mx-auto">
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="hover:text-blue-300">Accueil</a></li>
+                <li><a href="index.html" class="hover:text-blue-300">Inscription</a></li>
+                <li><a href="index.html" class="hover:text-blue-300">Connexion</a></li>
+                <li><a href="index.html" class="hover:text-blue-300">Rechercher</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+</head>
+<body>
+    <h1>Inscription</h1>
+
+    <!-- Formulaire d'inscription -->
+    <form id="register-form">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+        <div id="nom-error" style="color: red;"></div>
+
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required>
+        <div id="prenom-error" style="color: red;"></div>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+        <div id="email-error" style="color: red;"></div>
+
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required>
+        <div id="password-error" style="color: red;"></div>
+
+        <label for="adresse">Adresse :</label>
+        <input type="text" id="adresse" name="adresse" required>
+        <div id="adresse-error" style="color: red;"></div>
+
+        <label for="code-postal">Code postal :</label>
+        <input type="text" id="code-postal" name="code-postal" required>
+        <div id="code-postal-error" style="color: red;"></div>
+
+        <button type="submit">S'inscrire</button>
+    </form>
+
+    <!-- Script JavaScript -->
+    <script src="inscription.js"></script>
+</body>
+</html>

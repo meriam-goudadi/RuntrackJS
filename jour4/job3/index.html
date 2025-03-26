@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job 03 - Filtrage de Pokémon</title>
+</head>
+<body>
+    <h1>Filtrer les Pokémon</h1>
+
+    <!-- Formulaire de filtrage -->
+    <form id="filter-form">
+        <label for="id">ID :</label>
+        <input type="text" id="id" name="id">
+
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom">
+
+        <label for="type">Type :</label>
+        <select id="type" name="type">
+            <option value="">Tous</option>
+            <option value="Feu">Feu</option>
+            <option value="Eau">Eau</option>
+            <option value="Plante">Plante</option>
+            <!-- Ajoutez d'autres types si nécessaire -->
+        </select>
+
+        <button type="button" id="filtrer">Filtrer</button>
+    </form>
+
+    <!-- Liste des Pokémon filtrés -->
+    <ul id="pokemon-list"></ul>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
